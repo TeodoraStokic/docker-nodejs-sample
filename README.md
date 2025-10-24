@@ -16,6 +16,9 @@ git status
 
 ![Veranschaulichung der Befehle in Git Bash](image.png)
 ### **2. Installation der notwendigen Pakete**
+![Pakete](image-3.png)
+- **Installation**
+Um alle Pakete zu installieren, wird im Projektordner der folgende Befehl in der Konsole ausgeführt: *npm install*
 
 ### **3. Docker-Konfiguration und -Installation**
 
