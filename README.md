@@ -15,7 +15,9 @@ cd docker-nodejs-sample
 git status
 
 ![Veranschaulichung der Befehle in Git Bash](image.png)
-### **2. Docker-Konfiguration und -Installation**
+### **2. Installation der notwendigen Pakete**
+
+### **3. Docker-Konfiguration und -Installation**
 
 - **Docker Desktop installieren**
 Lade Docker Desktop herunter und installiere es.
@@ -32,3 +34,14 @@ Anschliessend im Microsoft Store eine Linux-Distribution installieren.
 - **Installation testen**
 docker run hello-world
 ![hello-world Ausgabe](image-1.png)
+
+### **4. Projekt starten mit Docker**
+- **Projekt initialisieren**
+Im Projektverzeichnis docker-nodejs-sample
+*docker init* schreiben. Folge den Fragen im Terminal und beantworte sie wie folgt:
+   ![Antworten](image-2.png)
+- **Starten der Applikation**
+Nun führe im Terminal den folgenden Befehl aus:
+*docker compose up –build*
+Öffne anschliessend einen Webbrowser und gehe zu http://localhost:3000.
+>![WARNING] Wenn es nicht klappt, kann es an der alten Version 18.0.0 liegen. Öffne in Visual Studio Code die Dockerfile und ändere die Version auf 22.18.0.
